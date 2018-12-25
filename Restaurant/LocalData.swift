@@ -22,51 +22,84 @@ struct LocalData {
     static let menuItems = [
         MenuItem(
             id: 1,
-            name: "Spaghetti and Meatballs",
-            description: "Seasoned meatballs on top of freshly-made spaghetti. Served with a robust tomato sauce.",
-            price: 9,
-            category: "entrees",
-            imageURL: URL(fileURLWithPath: "SpaghettiAndMeatballs")
+            name: "КЕСАДИЛЬЯ С КУРИЦЕЙ",
+            description: "Блюдо мексиканской кухни, состоящее из пшеничной тортильи, наполненной сыром.",
+            price: 295,
+            category: "Закуски",
+            imageURL: URL(fileURLWithPath: "kesa")
         ),
         MenuItem(
             id: 2,
-            name: "Margherita Pizza",
-            description: "Tomato sauce, fresh mozzarella, basil, and extra-virgin olive oil.",
-            price: 10,
-            category: "entrees",
-            imageURL: URL(fileURLWithPath: "MargheritaPizza")
+            name: "БЕЙГЛ С СЕМГОЙ",
+            description: "Кусочки семги, нежный сливочный сыр и листья салата.",
+            price: 325,
+            category: "Закуски",
+            imageURL: URL(fileURLWithPath: "belga")
         ),
         MenuItem(
             id: 3,
-            name: "Grilled Steelhead Trout Sandwich",
-            description: "Pacific steelhead trout with lettuce, tomato, and red onion.",
-            price: 9,
-            category: "entrees",
-            imageURL: URL(fileURLWithPath: "GrilledSteelheadTroutSandwich")
+            name: "РОЛЛ С ВЕТЧИНОЙ И ЯЙЦОМ",
+            description: "Нежная лепешка, ветчина, сыр.",
+            price: 265,
+            category: "Закуски",
+            imageURL: URL(fileURLWithPath: "roll")
         ),
         MenuItem(
             id: 4,
-            name: "Pesto Linguini",
-            description: "Stewed sliced beef with yellow onions and garlic in a vinegar-soy sauce. Served with steamed jasmine rice and sautÃ©ed vegetables.",
-            price: 9,
-            category: "entrees",
-            imageURL: URL(fileURLWithPath: "PestoLinguini")
+            name: "ТУНЕЦ ГРИЛЬ",
+            description: "Готовим методом быстрой прожарки степени raw (сырая прожарка). С обеих сторон образуется слегка поджаренная корочка, внутри блюдо остается сочным и нежным.",
+            price: 420,
+            category: "Основные блюда",
+            imageURL: URL(fileURLWithPath: "tunec")
         ),
         MenuItem(
             id: 5,
-            name: "Chicken Noodle Soup",
-            description: "Delicious chicken simmered alongside yellow onions, carrots, celery, and bay leaves, chicken stock.",
-            price: 3,
-            category: "appetizers",
-            imageURL: URL(fileURLWithPath: "ChickenNoodleSoup")
+            name: "ОЛИВЬЕ С КУРИЦЕЙ",
+            description: "Классический новогодний салат.",
+            price: 290,
+            category: "Закуски",
+            imageURL: URL(fileURLWithPath: "oliv")
         ),
         MenuItem(
             id: 6,
-            name: "Italian Salad",
-            description: "Garlic, red onions, tomatoes, mushrooms, and olives on top of romaine lettuce.",
-            price: 5,
-            category: "appetizers",
-            imageURL: URL(fileURLWithPath: "ItalianSalad")
+            name: "ЦЕЗАРЬ С КУРИЦЕЙ",
+            description: "Всеми любимый классический салат Цезарь.",
+            price: 360,
+            category: "Закуски",
+            imageURL: URL(fileURLWithPath: "cezar")
         ),
+        MenuItem(
+            id: 7,
+            name: "ШАКШУКА",
+            description: "Блюдо из яиц, жаренных в соусе из помидоров, острого перца, лукa и приправ, входит в кухню Израиля.",
+            price: 280,
+            category: "Основные блюда",
+            imageURL: URL(fileURLWithPath: "shakshuka")
+            ),
+        MenuItem(
+            id: 8,
+            name: "КАРБОНАРА",
+            description: "Паста алла карбонара — спагетти с мелкими кусочками гуанчале, смешанные с соусом из яиц, сыра пармезан и пекорино романо, соли и свежемолотого чёрного перца.",
+            price: 330,
+            category: "Основные блюда",
+            imageURL: URL(fileURLWithPath: "carbonar")
+        ),
+        MenuItem(
+            id: 9,
+            name: "МЯСО ПО-БУРГУНДСКИ",
+            description: "Классическое французское блюдо. Обладает глубоким букетом ароматов свежих трав и овощей, неспешно приготовленной говядины и красного вина.",
+            price: 440,
+            category: "Основные блюда",
+            imageURL: URL(fileURLWithPath: "mas")
+        ),
+        MenuItem(
+            id: 10,
+            name: "КУРИНАЯ ГРУДКА С КРАСНЫМ РИСОМ",
+            description: "Вкусная и простая идея для сбалансированного обеда.",
+            price: 295,
+            category: "Основные блюда",
+            imageURL: URL(fileURLWithPath: "kotlet")
+        ),
+            
     ]
 }
